@@ -30,10 +30,7 @@ export default {
 }
 
 .parallax {
-  background-image: url("../assets/img/bg.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(301.39deg, #000000 -54.66%, #315875 70.89%, rgba(82, 70, 131, 0.901042) 106.94%, rgba(255, 255, 255, 0) 184.01%);;
   background-size: cover;
   height: 100%;
 }

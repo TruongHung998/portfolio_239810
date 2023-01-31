@@ -10,7 +10,7 @@
 
     <div class="container-fluid center-block">
       <article class="content text-center">
-    
+
 		<AnimateOnVisible class="timeline mx-auto" v-for="(post, index) in content.metadata.items" :key="index" name="fadeLeft" :duration="0.5">
 			<vue-timeline-update
         :date="new Date(post.date)"
@@ -52,8 +52,7 @@ export default {
 $linear: map-get($colors, dark);
 
 #projects {
-  background-color: lighten(map-get($colors, primary), 5%);
-
+  background: linear-gradient(301.39deg, #000000 -54.66%, #315875 70.89%, rgba(82, 70, 131, 0.901042) 106.94%, rgba(255, 255, 255, 0) 184.01%);;
 }
 
 .title {
@@ -93,5 +92,10 @@ article .inner {
 h1 {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+/deep/ {
+  .gb-vue-timeline-update__thumbnail {
+    max-height: 550px;
+  }
 }
 </style>
