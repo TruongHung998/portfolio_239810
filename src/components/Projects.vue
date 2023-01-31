@@ -97,5 +97,20 @@ h1 {
   .gb-vue-timeline-update__thumbnail {
     max-height: 550px;
   }
+  .gb-vue-timeline-update__description {
+    .technology {
+      letter-spacing: 2px;
+      font-weight: bold;
+      color: #375A42;
+      font-size: 20px;
+      font-style: normal;
+      /* or 100% */
+      background: linear-gradient(91.39deg, #FFFFFF 15.82%, rgba(111, 187, 245, 0.901563) 51.41%, rgba(228, 244, 255, 0.910313) 94.54%, rgba(8, 43, 84, 0.58) 119.34%);
+      -webkit-background-clip: text;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      -webkit-text-fill-color: transparent;
+    }
+  }
 }
 </style>
